@@ -1,4 +1,5 @@
 apply plugin: 'java'
+apply plugin: 'application'
 
 repositories {
     jcenter()
@@ -13,3 +14,5 @@ dependencies {
 	
     testCompile 'junit:junit:4.12'
 }
+
+mainClassName = "jettyproxy.ProxyServer"
